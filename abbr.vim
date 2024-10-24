@@ -11,3 +11,4 @@ iabbr mian main
 iabbr Ndoe Node
 iabbr cahr char
 iabbr Fucntion Function
+iabbr vodi void
