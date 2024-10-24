@@ -19,6 +19,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'nordtheme/vim'
 " vim颜色方案
 
+Plug 'jiangmiao/auto-pairs'
+" 自动符号包裹
+
 Plug 'immortalrover/vim-cheatsheet'
 " vim备忘录
 
@@ -32,6 +35,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " 状态栏美化
 
-Plug 'jiangmiao/auto-pairs'
-" 自动符号包裹
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" 代码补全工具
 call plug#end()
