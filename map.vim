@@ -30,8 +30,15 @@ nnoremap <F5> :call vimspector#Continue()<CR>
 nnoremap <F9> :call vimspector#ToggleBreakpoint()<CR>
 nmap <F10> <Plug>VimspectorStepOver
 
+nnoremap <F4> :call ToggleCoc()<CR>
+nnoremap <C-q> :set hlsearch!<CR>
+
 inoremap <C-l> <ESC>la
 
 inoremap ： :
 inoremap ； ;
 inoremap ， ,
+
+inoremap <silent> <expr> <TAB> coc#pum#visible() ? coc#pum#confirm() : "\<TAB>"
+inoremap <silent> <expr> <C-j> coc#pum#visible() ? coc#pum#next(1) : coc#refresh()
+inoremap <silent> <expr> <C-k> coc#pum#visible() ? coc#pum#prev(1) : coc#refresh()
