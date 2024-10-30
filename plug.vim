@@ -25,16 +25,19 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'immortalrover/vim-cheatsheet'
 " vim备忘录
 
+Plug 'vim-airline/vim-airline'
+" 状态栏，用于显示当前状态
+
 " 三档:暂时正在尝试的插件
 Plug 'puremourning/vimspector'
 " vim类vscode的调试器
-
-Plug 'vim-airline/vim-airline'
-" 状态栏，用于显示当前状态
 
 Plug 'vim-airline/vim-airline-themes'
 " 状态栏美化
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " 代码补全工具
+
+Plug 'preservim/nerdtree'
+" 代码浏览器
 call plug#end()

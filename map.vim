@@ -42,3 +42,5 @@ inoremap ， ,
 inoremap <silent> <expr> <TAB> coc#pum#visible() ? coc#pum#confirm() : "\<TAB>"
 inoremap <silent> <expr> <C-j> coc#pum#visible() ? coc#pum#next(1) : coc#refresh()
 inoremap <silent> <expr> <C-k> coc#pum#visible() ? coc#pum#prev(1) : coc#refresh()
+
+nnoremap <C-a> :NERDTreeToggle<CR>
