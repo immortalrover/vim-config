@@ -12,6 +12,7 @@ nnoremap <space> viw
 vnoremap <space> e
 nnoremap <F1> :e ~/.vim/plugged/vim-cheatsheet/vim-cheatsheet.md<CR>
 nnoremap <F2> :set list!<CR>
+nnoremap <F12> :e cheatsheet.md<CR>
 
 let mapleader = "\\"
 nnoremap <Leader>dd :call vimspector#Launch()<CR>
@@ -44,3 +45,4 @@ inoremap <silent> <expr> <C-j> coc#pum#visible() ? coc#pum#next(1) : coc#refresh
 inoremap <silent> <expr> <C-k> coc#pum#visible() ? coc#pum#prev(1) : coc#refresh()
 
 nnoremap <C-a> :NERDTreeToggle<CR>
+nnoremap <F4> :call CreateDateDirectory()<CR><C-l>:e cheatsheet.md<CR>

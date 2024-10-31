@@ -7,6 +7,7 @@
  "    \|__|/       \|__|\|__|     \|__|\|__|\|__|\|_______|
  "
 
+so ~/.vim/func.vim
 so ~/.vim/plug.vim
 so ~/.vim/env.vim
 so ~/.vim/map.vim
